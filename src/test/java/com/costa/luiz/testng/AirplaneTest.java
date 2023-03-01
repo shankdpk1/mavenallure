@@ -17,6 +17,7 @@ public class AirplaneTest {
     public void engine(String engine, int power) {
         //Dummy code
         Assert.assertTrue(nonNull(engine) && power > 90);
+
     }
 
     @DataProvider(name = "engineProvider")
